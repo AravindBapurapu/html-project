@@ -108,7 +108,9 @@
 }
 
 /* Account, Orders */
-.account, .orders {
+.account a, .orders a{
+    text-decoration:none;
+    color:white;
     cursor: pointer;
     display: flex;
     flex-direction: column;
